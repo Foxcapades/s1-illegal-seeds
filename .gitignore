@@ -1,0 +1,11 @@
+/*
+
+!docs/
+!IllegalSeeds*
+!IllegalSeeds/*
+!license
+!makefile
+!readme.adoc
+!.gitignore
+
+*.user
