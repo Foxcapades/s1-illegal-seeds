@@ -9,12 +9,14 @@ using ScheduleOne.DevUtilities;
 using ScheduleOne.Core.Items.Framework;
 #endif
 
-[assembly: MelonInfo(typeof(IllegalSeeds.Mod), "Illegal Seeds", "1.1.0", "Foxcapades")]
+[assembly: MelonInfo(typeof(IllegalSeeds.Mod), IllegalSeeds.Mod.MOD_NAME, "1.1.0", "Foxcapades")]
 [assembly: MelonGame("TVGS", "Schedule I")]
 
 #nullable enable
 namespace IllegalSeeds {
   public class Mod: MelonMod {
+    public const string MOD_NAME = "Illegal Seeds";
+
     public override void OnSceneWasLoaded(int buildIndex, string sceneName) {
       if (sceneName != "Main")
         return;
