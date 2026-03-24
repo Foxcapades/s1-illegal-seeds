@@ -1,4 +1,4 @@
-= Schedule I - Illegal Seeds
+# Schedule I - Illegal Seeds
 
 Marks weed and coca seeds as illegal.
 
